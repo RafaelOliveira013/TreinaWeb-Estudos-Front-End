@@ -11,9 +11,41 @@
     <title>MyTeacher</title>
 </head>
 <body>
-    <header> <!--Header é uma tag utilizada para inserir o cabeçalho do site-->
-        <img class="logo" src="./static/img/logo_myteacher.png" alt="Logo do site MyTeacher">
-        <span>Encontre o professor perfeito!</span> <!--Span é uma tag utilizada para inserir um pequeno texto-->
+    <!--Header é uma tag utilizada para inserir o cabeçalho do site-->
+    <header> 
+        <img class="logo" src="./static/img/logo_myteacher.png" alt="Logo do site MyTeacher">        
+        <!--Span é uma tag utilizada para inserir um pequeno texto-->
+        <span>Encontre o professor perfeito!</span> 
     </header>
+
+    <!--Main é uma tag utilizada para colocar todo conteúdo principal da página-->
+    <main>
+        <!--Section é uma tag utilizada para dividir os conteúdos que irão conter na página-->
+        <section class="teacher-conteiner">
+            <img src="./static/img/foto_professor_1.png" alt="Foto do professor" class="teacher-img">
+            <p>
+                <strong class="teacher-name">João da Silva</strong>
+            </p>
+            <p class="teacher-price">R$ 100,00 por hora</p>    
+            <p class="teacher-description">Professor de inglês, já morou nos Estados Unidos e Inglaterra.</p>
+            <form class="teacher-contract">
+                <input type="number" placeholder="Quantidade de horas" class="teacher-contract-hours">
+                <button type="submit" class="teacher-contract-button">Calcular valor total</button>
+            </form>         
+        </section> 
+
+        <section class="teacher-conteiner">
+            <img src="./static/img/foto_professor_2.png" alt="Foto da professora" class="teacher-img">
+            <p>
+                <strong class="teacher-name">Maria da Silva</strong>
+            </p>
+            <p class="teacher-price">R$ 90,00 por hora</p>    
+            <p class="teacher-description">Professora de inglês, já morou nos Estados Unidos e Inglaterra.</p>
+            <form class="teacher-contract">
+                <input type="number" placeholder="Quantidade de horas" class="teacher-contract-hours">
+                <button type="submit" class="teacher-contract-button">Calcular valor total</button>
+            </form>         
+        </section>        
+    </main> 
 </body>
 </html>
