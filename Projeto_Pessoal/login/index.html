@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/login/css/style.css">
+    <title>Login</title>
+</head>
+<body>
+    
+    <section class="container conteudo">
+        <div class="conteudo form-container">
+            <h1>Login</h1>
+            <form action="../home/home.html" class="form-login">
+                <div class="label-user">
+                    <label for="login"><img src="../img/usuario.png" alt="ícone de usuário" width="25px"></label>
+                    <input type="text" name="login" placeholder="Digite seu E-mail ou CPF" required class="input-user">
+                </div>  
+                <div class="label-password">
+                    <label for="password"><img src="../img/password.png" alt="ícone de cadeado" width="40px" class="padlock"></label>
+                    <input type="password" name="password" minlength="6" maxlength="15" placeholder="Senha" required>
+                </div>
+                <button type="submit">CONECTE-SE</button>                   
+                <span class="access">
+                    <p><a href="../altera_senha/senha.html" class="layout">Esqueceu sua senha?</a></p>
+                    <p>Ou acesse com</p>
+                </span>
+
+            <div>
+                <span class="logo">
+                    <a href="../home/home.html"><img src="../img/Facebook_logo.png" width="110px" alt="Acesse com sua conta do Facebook"></a>
+                    <span>
+                        <a href="../home/home.html"><img src="../img/google_logo.png" width="110px" alt="Acesse com sua conta do Google"></a>
+                    </span>
+                </span>
+            </div>            
+            <p>Não possui uma conta? <a href="#" class="layout">Inscreva-se Agora</a></p>
+        </div>        
+            </form>           
+    </section>
+</body>
+</html>

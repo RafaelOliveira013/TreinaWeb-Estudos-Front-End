@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/altera_senha/css/senha.css">
+    <title>Alteração Senha</title>  
+</head> 
+<body>   
+    <section>  
+        <h1>Alteração de senha</h1>
+        <h2>Sua senha deve conter no mínimo 6 e no máximo 15 caracteres.</h2>              
+        <div class="content">
+            <form action="/home/home.html" class="form-content">
+                <div>
+                    <label for="cadastro">Digite seu E-mail ou CPF</label>
+                    <input type="text" name="cadastro" placeholder="Digite seu e-mail ou CPF" required>
+                </div>
+                <div>
+                    <label for="nova_senha">Nova senha</label>
+                    <input type="password" name="nova_senha" placeholder="Digite sua nova senha" minlength="6" maxlength="15" required>
+                </div>
+                <div>
+                    <label for="senha">Confirme a senha</label>
+                    <input type="password" name="senha" placeholder="Confirme sua senha" minlength="6" maxlength="15" required>
+                </div>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </section>
+    
+</body>
+</html>

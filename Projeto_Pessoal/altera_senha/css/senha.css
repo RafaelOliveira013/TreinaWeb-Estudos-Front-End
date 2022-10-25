@@ -1,0 +1,79 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-image: url("https://virtualbackgrounds.site/wp-content/uploads/2020/07/simple-corporate-office.jpg");
+    backdrop-filter: blur(3px);    
+}
+
+h1 {
+    text-transform: uppercase;
+}
+
+h1, h2 {
+    background-color: #b9d6f8;    
+    text-align: center;
+    margin: 0;   
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+}
+
+section {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;    
+}
+
+
+.content {    
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;    
+}
+
+.form-content {
+    background-color: rgba(255, 255, 255, 40%);    
+    padding: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 250px;
+    height: 250px;
+    font-weight: bold;
+}
+
+.form-content div {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+input, input:focus {
+    outline: none;
+    border: none;
+    border-radius: 9px;
+    padding: 15px;
+    font-size: 15px;
+}
+
+label {
+    font-size: 1.3rem;
+    color: black;
+}
+
+button {
+    padding: 8px;
+    border: none;    
+    border-radius: 4px;
+    background-color: #7dadf7;
+    cursor: pointer;    
+}
+
+button:hover {
+    background-color: #3680ee;
+    transition: 0.8s;    
+}
+
+

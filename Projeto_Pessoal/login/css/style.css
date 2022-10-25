@@ -1,0 +1,121 @@
+body {
+    background-image: url("https://bileico.com/images/easyblog_articles/332/Desksharing.jpg");
+    margin: 0;
+    padding: 0;        
+}
+
+.container {
+   width: 100vw;
+   height: 100vh;     
+}
+
+.conteudo, .form-login {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   gap: 5px;       
+}
+
+.form-container {
+    background-color: hsla(208, 100%, 100%, 35%);
+    padding: 80px;
+    backdrop-filter: blur(5px);           
+}
+
+div .label-user, .label-password {
+    display: flex;
+    align-items: center;    
+    background-color: white;
+    border-radius: 9px;
+}
+
+
+.label-user {
+    width: 279px;
+}
+
+
+.label-password {
+    width: 279px;       
+}
+
+
+.padlock {
+     margin-left: -7px;   
+}
+
+
+input, .input-user {
+    width: 249px;
+}
+
+
+.form-container input, .form-container input:focus {
+    outline: none;
+    border: none;
+    border-radius: 9px;
+    padding: 15px;
+}
+
+
+.access {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+h1 {
+    text-transform: uppercase;
+    font-weight: 900; 
+    color: #000
+}
+
+a .logo {
+    display: flex;      
+}
+
+
+.logo img {
+    padding: 10px;
+}
+
+
+.layout {
+    text-decoration: none;
+    color: #120fcc;
+}
+
+
+.layout:hover {
+    text-decoration: underline;
+    color: dodgerblue;
+}
+
+
+button {
+    padding: 8px;
+    width: 130px;
+    height: 40px;
+    margin-top: 20px;
+    font-weight: bold;
+    background-color: #7dadf7;
+    border: 1px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #3680ee;
+    transition: 0.8s;    
+}
+    
+
+
+
+
+
+
+
