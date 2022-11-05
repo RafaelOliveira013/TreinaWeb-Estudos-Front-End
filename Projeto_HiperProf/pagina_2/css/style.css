@@ -1,0 +1,396 @@
+body {
+    margin: 0;
+    padding: 0;  
+}
+
+* {
+    font-family: 'Inter', sans-serif;
+}   
+
+/* Header */
+
+.menu-mobile {
+    display: none;
+}
+
+.header {
+    background: linear-gradient(90deg, #5840BA 0%, #382194 100%);
+    padding: 15px;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;   
+    padding: 0 15px;
+}
+
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #FFF;
+    font-size: 10px;
+}
+
+.nav-bar {
+    display: flex;
+    gap: 60px;
+    list-style: none;
+    align-items: center;
+    font-size: 10px;
+    padding: 0;
+}
+
+.nav-bar button {
+    background-color: #2F1D79;
+    color: #FFF;    
+    width: 147px;
+    height: 28px;
+    border: none;
+    border-radius: 3px;
+    font-size: 10px;
+}
+
+.nav-bar a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+
+.search { 
+    position: relative;
+    margin-top: 85px;
+}
+
+
+/* Menu Teacher */
+
+.menu-teacher {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-teacher h1 {
+    margin-top: 55px;
+    margin-bottom: 0;
+    color: #5840BA;
+    font-weight: bolder;
+    font-size: 20px;
+    text-align: center;
+}
+
+.menu-teacher p {
+    text-align: center;
+    max-width: 400px;
+    margin-top: 16px;
+    margin-bottom: 45px;
+    color: #8C8C8C;
+    font-size: 15px;
+}
+
+
+/* Section Content Teacher */
+
+
+a button {
+    width: 168px;
+    height: 31px;
+    border: 1px solid #fff;
+    background-color: transparent;
+    color: #FFF;
+    border-radius: 5px;
+    font-size: 10px;
+    font-weight: 800;
+    cursor: pointer;    
+}
+
+.content-teacher {
+    display: flex;
+    text-align: center;  
+    align-items: center;
+    border-radius: 5px;
+    width: 100%;
+    gap: 45px;
+    color: #fff;
+    background-color: #5840BA;
+
+}
+
+.content-teacher h2 {
+    font-size: 16px;
+    font-weight: 800;
+}
+
+.evaluation {
+    font-size: 10px;    
+}
+
+.lorem p {
+    text-align: left;
+    font-size: 12px;
+    margin: 0;
+}
+
+.container-price {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 12px;
+    position: relative;
+    top: 9px;
+}
+
+.container-price p {
+    margin: 0;
+}
+
+.hour-price {
+    font-size: 10px;
+}
+
+.price {
+    font-size: 24px;
+}
+
+.teacher-description {
+    padding: 35px;
+    margin-bottom: 10px;
+}
+
+.teacher-evaluation {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 12px;
+}
+
+
+.content-main {
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+
+/* Section Article */
+
+.article {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:68px auto 0 auto;
+    font-size: 15px;
+    color: #8C8C8C;
+}
+
+.article p {
+    margin: 0;
+}
+
+hr {
+    margin: 50px auto 73px auto;
+    color: #D9D9D9;
+}
+
+
+/* Section Content Teacher */
+
+.teachers {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 36px;
+    row-gap: 47px;
+    margin-bottom: 50px;
+}
+
+
+
+.teachers h2, .teachers p {
+    margin: 0;
+    color: #FFF;
+}
+
+.teachers h2 {
+    font-size: 16px;
+    font-weight: 800;
+}
+
+.teachers p {
+    font-size: 12px;
+}
+
+.teachers img {
+    width: 100%;
+}
+
+.description {
+    background-color: #5840BA;
+    margin-top: -5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 25px;   
+    align-items: center;
+    border-radius: 0 0 5px 5px;
+    padding: 25px;
+}
+
+
+.description a button {
+    width: 168px;
+    height: 31px;
+    border: 1px solid #fff;
+    background-color: transparent;
+    color: #FFF;
+    border-radius: 5px;
+    font-size: 10px;
+    font-weight: 800;
+    cursor: pointer;    
+}
+
+.teacher-suggestion {
+    text-align: center;
+    font-size: 15px;
+    color: #9079EE;
+    margin-bottom: 68px;
+}
+
+
+/* Media Queries */
+
+@media (max-width: 992px) {
+
+    .teachers {
+        grid-template-columns: repeat(2, 1fr);
+        max-width: 100%;
+    }
+    
+    .content-teacher {
+        flex-direction: column;
+        gap: 0;
+        background: none;
+    }
+
+    .content-main {
+        margin-top: -10px;
+        background-color: #5840BA;
+    }
+
+    .teacher-elton {
+        width: 495.25px;
+        border-radius: 5px;
+    }
+}
+
+
+@media (max-width: 576px) {
+    .nav-bar {
+        display: none;
+    }
+
+    .teachers {
+        grid-template-columns: 1fr;
+    }
+
+    header {
+        padding: 35px 0;
+    }
+
+    .menu-mobile {
+        display: block;
+    }
+
+    .hamburguer, .close {
+        border: none;
+        cursor: pointer;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        width: 36px;
+        height: 36px;
+    }
+
+    .menu {
+        position: absolute;
+        z-index: 500;
+        margin: 0;
+        padding: 0;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 30vh;
+        overflow: hidden;
+        list-style: none;
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: center;
+        justify-content: space-evenly;
+        transform: translateY(-100%);
+        transition: .6s;
+        background: #5840BA;
+    }
+
+    .menu:target{
+        transform: translateY(0);
+    }
+
+    .menu-mobile li {
+        display: block;
+        cursor: pointer;
+        width: 100%;
+        padding: 10px;        
+        text-align: center;
+        transition: 1s;
+    }
+
+    .menu-mobile button {
+        background-color: #2F1D79;
+        color: #FFF;    
+        width: 147px;
+        height: 28px;
+        border: none;
+        border-radius: 3px;
+        font-size: 10px;
+    }
+
+    .menu-mobile a {
+        text-decoration: none; 
+        color: #FFF;
+    }
+
+    .menu li:hover {
+        background-color: #2F1D79;
+        cursor: pointer;
+    }
+
+    .content-main {
+        flex-direction: column;
+    }
+
+    .teacher-elton {
+        width: 287.25px;
+    }
+
+    .content-teacher {
+        align-items: center;
+    }
+
+    .lorem p { 
+        text-align: center;
+    }
+
+    .container-price {
+        margin-bottom: 35px;
+    }
+}
