@@ -1,0 +1,45 @@
+@media (max-width: 550px) {
+    .bg__image__mask {
+        padding: 30px 0;
+    }
+
+    .banner__text br {
+        display: none;
+    }
+
+    .field__area {
+        grid-template-columns: 1fr;
+    }
+
+    .shrimps {
+        grid-template-columns: 1fr;
+    }
+
+    .field__contact {
+        width: 290px;
+    }
+
+    .h2__contact {
+        text-align: center;
+        white-space: normal;
+    }
+
+    .online__stores {
+        display: grid;
+        grid-template-columns: 1fr;
+        row-gap: 25px;
+    }
+
+    .stores__emporium {
+        display: grid;
+        grid-template-columns: 1fr;
+        row-gap: 25px;
+    }
+
+    .icons__attendance {
+        display: flex;
+        gap: 7px;
+        font-size: 13px;
+    }
+
+}

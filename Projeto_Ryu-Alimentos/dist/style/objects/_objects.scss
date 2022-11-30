@@ -1,0 +1,312 @@
+//Header
+
+.container {
+    margin: 0 auto;
+    max-width: 1200px;
+    
+}
+
+.menu-mobile {
+    display: none;
+}
+
+.nav__logo {
+    width: 63px;
+    height: 76px;
+}
+
+.nav__lists {
+    display: flex;
+    gap: 45px;
+    align-items: center;
+}
+
+.nav__menu {
+    display: flex;  
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    padding: 35px 15px;
+}
+
+.nav__links {
+    text-decoration: none;
+    color: $text-color;
+    font-size: 11px;
+    font-weight: 300;
+}
+
+
+//Section Banner Peixe 
+
+.bg__image {
+    background-image: url("/dist/img/fish.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-bottom: 110px;
+}
+
+.bg__image__mask {
+    background-color: rgba(0, 0, 0, 0.65);
+    padding: 150px 0;
+}
+
+.banner__text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center; 
+    color: #fff;
+}
+
+.banner__btn {
+    margin-top: 43px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    
+}
+
+.btn__banner {
+    padding: 10px 35px;
+    border-color: #fff;
+    background-color: transparent;
+}
+
+// Section Área
+
+.section__area {
+    margin: 0 0 150px 0;
+}
+
+.h2__titles {
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.h2__titles::after { 
+    position: absolute;
+    content: '';
+    width: 80px;
+    height: 1px;
+    border-bottom: 3px solid;
+    left: -115px;
+    top: 15px;
+}
+
+.h2_titles {
+    margin: 0;
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.field__area {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+    gap: 25px 0;
+}
+
+.sales__area {
+    display: grid;
+    gap: 25px 0;
+}
+
+.title__general {
+    display: flex;
+    align-items: center;
+    gap: 46px;
+    margin-bottom: 70px;
+    margin-left: 150px;
+}
+
+// Section Sobre
+
+.section__about {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    margin-bottom: 150px;
+    gap: 200px;
+    padding: 0 15px;
+}
+
+// Section Produtos
+
+.bg__img__shrimp {
+    background-image: url("/dist/img/camarao.png");
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    width: 163px;
+    height: 230px;
+    text-align: center;
+}  
+
+.shrimps {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    margin-bottom: 100px;
+    padding: 0 15px;
+}
+
+.title__shrimp {
+    display: flex;
+    justify-content: center;
+    margin-top: -125px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 800;
+}
+
+.bg__mask__shrimp {
+    height: 230px;
+    filter: opacity(58%);
+}
+
+
+// Section Atendimento Comercial
+
+.commercial__service {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.link__attendance {
+    font-weight: 500;
+    color: #000;
+}
+
+.paragraph__attendance {
+    font-size: 13px;
+    font-weight: 300;
+}
+
+.field__service {
+    background-color: #f5f5f5;
+    height: 450px;
+    padding: 0 15px;
+}
+
+.h4__attendance {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.attendance {
+    position: relative;
+}
+
+.attendance::after { 
+    position: absolute;
+    content: '';
+    width: 80px;
+    height: 1px;
+    border-bottom: 3px solid;
+    left: -115px;
+    top: 15px;
+}
+
+.hr__service {
+    position: relative;
+    content: '';
+    left: 150px;
+    top: 20px;
+}
+
+.icons__attendance {
+    display: flex;
+    gap: 5px;
+    font-size: 18px;
+}
+
+.emphasis__attendance {
+    font-weight: bold;
+}
+
+
+// Section Lojas Online
+
+.bg__wave__blue {
+    background-image: url("/dist/img/waves-blue.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0 15px;
+}
+
+.bg__mask__blue {
+    width: 100%;
+    background-color: #1459e250;
+    padding: 100px 0;
+}
+
+.online__stores {
+    position: relative;
+}
+
+.iphone__stores {
+    position: absolute;
+    content: "";
+    top: -153px;
+    right: 455px;
+}
+
+// Section Empório Ryu
+
+.field__emporium {
+    display: flex;
+    justify-content: space-between;
+}
+
+.emporium {
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
+    margin: 96px auto;
+}
+
+.stores__emporium {
+    display: flex;
+    column-gap: 55px;
+}
+
+.h4__emporium {
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.paragraph__emporium {
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.bold__emporium {
+    font-weight: bold;
+}
+
+.btn__emporium {
+    width: 152px;
+    height: 40px;
+    border-color: #000;
+    background-color: transparent;
+}
+
+.link__emporium {
+    text-decoration: none;
+    color: #000;
+    font-size: 13px;
+    font-weight: 300;
+}
+
+
+// Footer
+
+.field__footer {
+    display: flex;
+    gap: 0 50px;
+    padding: 0 15px;
+    align-items: center;
+    margin-top: 150px;
+    margin-bottom: 150px;
+}

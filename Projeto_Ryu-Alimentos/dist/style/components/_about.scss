@@ -1,0 +1,32 @@
+.text__about {
+    display: grid;
+    gap: 35px 0;
+}
+
+.title__about {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.paragraph__about {
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.btn__about {
+    width: 192px;
+    padding: 10px;
+    background-color: transparent;
+}
+
+.link__about {
+    text-decoration: none;
+    color: #000;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.img__about {
+    width: 100%;
+}
+

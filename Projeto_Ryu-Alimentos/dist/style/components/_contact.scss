@@ -1,0 +1,67 @@
+.contact {
+    background-color: $primary-color;
+    padding: 150px 0;
+}
+
+.field__contact {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 491px;
+    gap: 20px;
+    padding: 0 15px;
+
+}
+
+.h2__contact {
+    display: flex;
+    margin: 0 auto;
+    padding: 50px 0;
+    width: 293px;
+    white-space: nowrap;
+    color: #fff;
+    font-weight: 900;
+}
+
+
+.input__contact {
+    background-color: transparent;
+    height: 40px;
+    border: 1px solid #fff;
+    outline: none;
+    padding: 0 25px;
+    font-size: 13px;
+    font-weight: 300;
+}
+
+.input__contact::placeholder {
+    color: #fff;
+}
+
+.comment__contact {
+    background-color: transparent;
+    border: 1px solid #fff;
+    outline: none;
+    padding: 10px 0 107px 25px;
+    font-size: 13px;
+    font-weight: 300;
+}
+
+.comment__contact::placeholder {
+    color: #fff;
+}
+
+.btn__contact {
+    width: 125px;
+    height: 40px;
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+    float: right;
+}
+
+.link__contact {
+    text-decoration: none;
+    color: #fff;
+}
+

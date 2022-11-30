@@ -1,0 +1,64 @@
+.contacts__footer {
+    margin-bottom: 60px;
+    white-space: nowrap;
+}
+
+.bold__contact__footer {
+    font-weight: bold;
+}
+
+.social__networks__footer {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.icon__instagram {
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.icon__instagram:hover {
+    transform: scale(1.2);
+}
+
+.icon__facebook {
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.icon__facebook:hover {
+    transform: scale(1.2);
+}
+
+.h4__footer__contact {
+    padding-bottom: 15px;
+}
+
+.who__are {
+    margin-bottom: auto;
+}
+
+.h4__who__are {
+    padding-bottom: 30px;
+}
+
+.address__footer {
+    padding-top: 25px;
+}
+
+.lists_footer {
+    text-align: right;
+    margin-bottom: auto;
+    white-space: nowrap;
+    color: $primary-color;
+}
+
+.paragraph__footer {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 50px;
+    padding-top: 30px;
+}

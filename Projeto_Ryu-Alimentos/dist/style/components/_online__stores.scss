@@ -1,0 +1,37 @@
+.online__stores {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    color: #fff;
+    gap: 20px 390px;
+}
+
+.h2__stores {
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.stores {
+    display: grid;
+    gap: 40px 0;
+}
+
+.paragraph__stores {
+    font-size: 13px;
+    font-weight: 300;
+}
+
+.btn__stores {
+    width: 152px;
+    height: 40px;
+    background-color: transparent;
+    border-color: #fff;
+}
+
+.link__stores {
+    font-size: 13px;
+    font-weight: 300;
+    text-decoration: none;
+    color: #fff;
+}
+

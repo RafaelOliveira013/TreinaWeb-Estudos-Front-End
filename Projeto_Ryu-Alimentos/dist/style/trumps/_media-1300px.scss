@@ -1,0 +1,46 @@
+@media (max-width: 1300px) {
+    .stores__emporium {
+        display: flex;
+    }
+
+    .image__emporium {
+        width: 100%;
+    }
+    
+    .field__emporium {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contents__emporium {
+        align-items: center;
+    }
+    
+    .emporium {
+       text-align: center;
+       padding: 0 15px;
+    }
+    
+    .h2__titles {
+        position: relative;
+        margin-bottom: 50px;
+        text-align: center;
+    }
+
+    .field__area {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+        gap: 25px 0;
+        text-align: center;
+    }
+
+    .shrimps {
+        grid-template-columns: repeat(3, 1fr);
+        row-gap: 25px;
+    }
+
+    .bg__img__shrimp {
+        justify-self: center;
+    }
+}
